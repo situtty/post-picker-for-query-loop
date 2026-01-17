@@ -1,0 +1,37 @@
+{
+	"name": "post-picker-for-query-loop",
+	"version": "1.0.0",
+	"description": "Add post picking feature to Query Loop block.",
+	"author": "Tatsuya Saito",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --webpack-src-dir=src --output-path=build",
+		"start": "wp-scripts start --webpack-src-dir=src --output-path=build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"makepot": "wp i18n make-pot . languages/post-picker-for-query-loop.pot --domain=post-picker-for-query-loop"
+	},
+	"devDependencies": {
+		"@types/wordpress__block-editor": "^15.0.0",
+		"@types/wordpress__blocks": "^12.5.18",
+		"@types/wordpress__components": "^23.0.12",
+		"@types/wordpress__compose": "^6.0.1",
+		"@types/wordpress__core-data": "^2.4.5",
+		"@types/wordpress__data": "^6.0.2",
+		"@types/wordpress__element": "^2.4.1",
+		"@types/wordpress__hooks": "^2.4.1",
+		"@types/wordpress__i18n": "^3.4.0",
+		"@wordpress/scripts": "^31.1.0",
+		"typescript": "^5.0.0"
+	},
+	"files": [
+		"build",
+		"languages",
+		"post-picker-for-query-loop.php",
+		"readme.txt"
+	]
+}

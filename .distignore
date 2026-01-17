@@ -1,0 +1,21 @@
+# Directories
+.git
+.github
+node_modules
+src
+.wordpress-org
+
+# Files
+.distignore
+.editorconfig
+.gitignore
+.prettierrc
+.eslintrc
+composer.json
+composer.lock
+package.json
+package-lock.json
+phpcs.xml
+phpcs.xml.dist
+tsconfig.json
+webpack.config.js
