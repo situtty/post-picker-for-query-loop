@@ -292,11 +292,11 @@ function PostPickerPanel({ attributes, setAttributes }: PostPickerPanelProps) {
   }
 
   return (
-    <PanelBody title={__("投稿を選択", TEXT_DOMAIN)} initialOpen>
+    <PanelBody title={__("Pick Posts", TEXT_DOMAIN)} initialOpen>
       <VStack spacing={4}>
         <Notice status="warning" isDismissible={false}>
           {__(
-            "投稿は選択順に表示されます。並び順や先頭固定の設定は無視されます。",
+            "Posts are displayed in the order you select. Sorting and sticky post settings are ignored.",
             TEXT_DOMAIN
           )}
         </Notice>
@@ -304,7 +304,7 @@ function PostPickerPanel({ attributes, setAttributes }: PostPickerPanelProps) {
         <FormTokenField
           __next40pxDefaultSize
           __nextHasNoMarginBottom
-          label={__("検索", TEXT_DOMAIN)}
+          label={__("Search", TEXT_DOMAIN)}
           value={selectedTitles}
           suggestions={suggestions}
           onChange={handleTokenChange}

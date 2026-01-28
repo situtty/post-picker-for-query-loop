@@ -1,0 +1,27 @@
+{
+  "translation-revision-date": "2025-01-28T00:00:00+00:00",
+  "generator": "Hand-crafted",
+  "source": "src/index.tsx",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "lang": "ja",
+        "plural-forms": "nplurals=1; plural=0;"
+      },
+      "(Untitled)": [
+        "(タイトルなし)"
+      ],
+      "Pick Posts": [
+        "投稿を選択"
+      ],
+      "Posts are displayed in the order you select. Sorting and sticky post settings are ignored.": [
+        "投稿は選択した順序で表示されます。並び順・先頭固定表示の設定は無視されます。"
+      ],
+      "Search": [
+        "検索"
+      ]
+    }
+  }
+}

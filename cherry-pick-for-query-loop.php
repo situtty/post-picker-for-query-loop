@@ -3,7 +3,7 @@
  * Plugin Name:       Cherry Pick for Query Loop
  * Plugin URI:        https://wordpress.org/plugins/cherry-pick-for-query-loop/
  * Description:       Add post picking feature to Query Loop block.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.4
  * Requires PHP:      7.4
  * Author:            Tatsuya Saito
@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Plugin version.
  */
-const VERSION = '1.0.0';
+const VERSION = '1.0.1';
 
 /**
  * Plugin text domain.
